@@ -1,0 +1,47 @@
+.navbar{
+	position: fixed;
+	width: 100%;
+}
+.header{
+	background-image: url("https://images.pexels.com/photos/1027393/pexels-photo-1027393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	min-height: 100vh;
+	width: 100%;
+}
+#name{
+	padding-top: 335px;
+	min-height: 100vh;
+	top: 50%;
+    left: 50%;
+    z-index: 3;
+	color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+#name h1{
+	text-align: center;
+	font-size: 40 px;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.general{
+	padding-top: 35px;
+
+}
+.general h1{
+	/*background-image: url("https://images.pexels.com/photos/3575282/pexels-photo-3575282.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+	*/
+	text-align: center;
+	font-size: 40 px;    
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 35px;
+}
+#description{
+	padding-right: 10px;
+}
+.col-sm{
+	border:5px solid black;
+}
+
+
