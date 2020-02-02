@@ -26,7 +26,7 @@
     padding: 0;
 }
 .general{
-	padding-top: 35px;
+	padding-top: 100px;
 
 }
 .general h1{
@@ -34,7 +34,7 @@
 	font-size: 100 px;    
     font-weight: bold;
     margin: 0;
-    padding-bottom: 35px;
+    padding-bottom: 50px;
 }
 .general h3{
 	/*background-image: url("https://images.pexels.com/photos/3575282/pexels-photo-3575282.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
@@ -49,24 +49,60 @@
 #description{
 	padding-right: 10px;
 }
-.col-sm {
-	border:5px solid blue;
+.col-4 {
+	/*border:5px solid blue;*/
+	margin-bottom: 100px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 .col-sm h4{
 	text-align: center;
     margin: 0;
     padding-bottom: 35px;
 }
+.col-sm h5{
+	text-align: center;
+	color:#737373;
+}
 .paragraph {
 	font-size: 20px;
+	text-align: justify;
 }
 .exp{
-	width: 200px;
-	height:200px;
+	width: 170px;
+	height:170px;
 	margin-left: auto;
 	margin-right: auto;
 	display:block;
 
 }
+.lang{
+	width: 100px;
+	height:100px;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+
+.rating{
+	/*border:5px solid green;*/
+	width: 50%;
+	padding-left: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#details{
+	/*border:5px solid green;*/
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.cont{
+	width: 50px;
+	height:50px;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+
 
 
