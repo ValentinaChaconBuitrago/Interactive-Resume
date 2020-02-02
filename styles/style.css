@@ -4,7 +4,6 @@
 }
 .header{
 	background-image: url("https://images.pexels.com/photos/1027393/pexels-photo-1027393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-	
 	min-height: 100vh;
 	width: 100%;
 }
@@ -84,9 +83,8 @@
 	margin-right: auto;
 	display:block;
 }
-
 .rating{
-	border:5px solid green;
+	/*border:5px solid green;*/
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
@@ -103,6 +101,18 @@
 	margin-left: auto;
 	margin-right: auto;
 	display:block;
+}
+#contact{
+	padding-bottom: 100px;
+}
+#footer {
+	text-align: center;
+	border:5px solid;
+	background-color: #585858;
+}
+#footer p{
+	font-size:22px;
+	color:white;
 }
 
 
