@@ -54,6 +54,7 @@
 	margin-bottom: 100px;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	text-align: center;
 }
 .col-sm h4{
 	text-align: center;
@@ -85,11 +86,11 @@
 }
 
 .rating{
-	/*border:5px solid green;*/
+	border:5px solid green;
 	width: 50%;
-	padding-left: 25px;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 #details{
 	/*border:5px solid green;*/
