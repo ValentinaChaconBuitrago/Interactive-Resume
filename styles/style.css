@@ -1,3 +1,6 @@
+body{
+	overflow: auto;
+}
 .navbar{
 	position: fixed;
 	width: 100%;
@@ -37,11 +40,8 @@
     padding-bottom: 50px;
 }
 .general h3{
-	/*background-image: url("https://images.pexels.com/photos/3575282/pexels-photo-3575282.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
-	*/
 	text-align: center;
-	font-size: 40 px;    
-    font-weight: bold;
+	font-size: 20px;    
     font-style:italic;
     margin: 0;
     padding-bottom: 35px;
