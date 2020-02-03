@@ -3,7 +3,7 @@
 ### Author
 [Valentina Chacon Buitrago](https://github.com/ValentinaChaconBuitrago)
 ### Objectives
-  * Develop an interactive resume containing valuable information about my work, projects and interest.
+  * Develop an interactive resume containing valuable information about my work, projects and interests.
   * Use Web Development tools to create a static webpage.
   
 ### Technologies involved
