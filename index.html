@@ -35,8 +35,8 @@
 		/>
 	</head>
 	<body>
-		<!-- Navigation bar -->
-		<header class="header">
+		<!-- Navigation bar and header-->
+		<header class="header" title="header with background image">
 			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
 				<div class="container">
 					<!-- TODO: brand-->
@@ -99,14 +99,19 @@
 			<!-- About tab -->
 			<div id="about" class="general">
 				<h1>About me</h1>
-				<h3>
+				<h3 id="quote">
 					"Perseverance, the secret of all triumphs" <br />
 					- Victor Hugo
 				</h3>
 				<div class="row">
 					<!-- image div -->
 					<div id="prof" class="col-sm">
-						<img id="pic" class="rounded-circle" src="images/profile.jpg" alt="profile picture">
+						<img
+							id="pic"
+							class="rounded-circle"
+							src="images/profile.jpg"
+							alt="profile picture"
+						/>
 					</div>
 					<!-- information div -->
 					<div id="description" class="col-sm">
@@ -330,11 +335,10 @@
 										CNN dataset selection - Summer 2019
 									</h3>
 									<p class="description">
-										Python, keras used to improve 
+										Python, keras used to improve
 										classification accuracy of Convolutional
 										Neural Networks by modifying their
-										training dataset. Improved 
-										accuracy  5%.
+										training dataset. Improved accuracy 5%.
 									</p>
 								</div>
 							</a>
@@ -347,7 +351,10 @@
 										Easy Demographics - Spring 2019
 									</h3>
 									<p class="description">
-										Identify the number of people at a certain area and their demographic information. Used IBM’s Watson Visual Recognition and a security camera video.
+										Identify the number of people at a
+										certain area and their demographic
+										information. Used IBM’s Watson Visual
+										Recognition and a security camera video.
 									</p>
 								</div>
 							</a>
@@ -359,8 +366,11 @@
 									<h3 class="title">
 										Popular Movies App - Fall 2018
 									</h3>
-									<p class="description"> 
-										Mobile app for Android devices developed with Java used to Visualize popular movies in real time sorted by different criteria.
+									<p class="description">
+										Mobile app for Android devices developed
+										with Java used to Visualize popular
+										movies in real time sorted by different
+										criteria.
 									</p>
 								</div>
 							</a>
@@ -462,5 +472,11 @@
 		></script>
 
 		<!-- custom JS scripts -->
+		<script src="scripts/script.js"></script>
+
+		<!-- function that modifies the quote displayed in the about me section -->
+		<script>
+			changeQuote();
+		</script>
 	</body>
 </html>
