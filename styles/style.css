@@ -48,12 +48,11 @@
 }
 #prof{
 	text-align: center;
-	border:5px solid green;
+	border:5px solid blue;
 }
 #prof img{
-	width: 300px;
-	height:300px;
-	object-fit: cover;
+	width: 320px;
+	height:320px;
 }
 #description{
 	padding-right: 70px;
