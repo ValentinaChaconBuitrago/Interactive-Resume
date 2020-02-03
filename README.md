@@ -10,7 +10,6 @@
   * HTML
   * CSS/Bootstrap
   * JavaScript
-  * Mail
   
 ### Project Deployment
   To deploy this project simply click on the index.html file available or run a [local server](https://youtu.be/Q5bbPEAOwYs?t=1284) on your computer.
