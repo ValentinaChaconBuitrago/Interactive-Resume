@@ -1,0 +1,23 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "![](images/mainPage.png) ### Author [Valentina Chacon Buitrago](https://github.com/ValentinaChaconBuitrago) ### Objectives   * Develop an interactive resume containing valuable information about my work, projects and interests.   * Use Web Development tools to create a static webpage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValentinaChaconBuitrago/Interactive-Resume.git"
+  },
+  "keywords": [],
+  "author": "Valentina Chacon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ValentinaChaconBuitrago/Interactive-Resume/issues"
+  },
+  "homepage": "https://github.com/ValentinaChaconBuitrago/Interactive-Resume#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}

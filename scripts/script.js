@@ -20,3 +20,6 @@ function changeQuote(){
 	console.log(alternative[selection]);
 	document.getElementById('quote').innerHTML = "'"+ alternative[selection] + "'";	
 }
+
+
+
