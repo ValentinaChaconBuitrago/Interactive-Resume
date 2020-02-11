@@ -18,7 +18,7 @@ function changeQuote(){
 	alternative[5] = "It is spring again";
 	let selection = Math.floor(Math.random()*alternative.length);
 	console.log(alternative[selection]);
-	document.getElementById('quote').innerHTML = "'"+ alternative[selection] + "'";	
+	document.getElementById('quote').innerHTML = "'"+ alternative[selection] + "'";
 }
 
 

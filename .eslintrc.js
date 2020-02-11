@@ -5,7 +5,6 @@ module.exports = {
     extends: [
         "eslint:recommended",
         "prettier"
-        // "plugin:react/recommended"
     ],
     parserOptions: {
         ecmaVersion: 6,
