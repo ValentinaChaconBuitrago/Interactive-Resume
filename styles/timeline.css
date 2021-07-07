@@ -22,6 +22,9 @@ h4 {
 	top: 0;
 	left: 0;
 	right: 0;
+	/* Como los elementos del timeline no deberían llevar al home, propondría o bien usar otra etiqueta que no sea <a>,
+	u ocultar el icono de que es seleccionable con la siguiente línea: */
+	cursor: default;
 }
 .main-timeline .timeline {
 	display: inline-block;
